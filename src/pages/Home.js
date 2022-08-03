@@ -1,4 +1,4 @@
-import classes from "../components/styles/Home.module.css";
+import classes from "../components/styles/Pages.module.css";
 
 import Button from "../components/ui/Button";
 import AltButton from "../components/ui/AltButton";

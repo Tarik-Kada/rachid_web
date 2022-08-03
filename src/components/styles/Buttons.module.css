@@ -20,3 +20,16 @@
 .alt2button {
   background: linear-gradient(269.68deg, #092234 -1.32%, #000000 99.73%);
 }
+
+#send {
+  background-color: var(--primary-color) !important;
+  display: flex !important;
+  border-radius: 13px !important;
+  padding: 20px 4% !important;
+  align-items: center !important;
+  justify-content: center !important;
+  letter-spacing: 2px !important;
+  min-width: fit-content !important;
+  margin-right: 3% !important;
+  width: 35%;
+}
