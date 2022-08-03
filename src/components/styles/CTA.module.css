@@ -1,0 +1,18 @@
+.container {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  background: linear-gradient(99.64deg, rgba(21, 186, 192, 1) 0%, rgba(182, 252, 255, 1) 109.54%);
+  padding: 3% 6%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.container > * + *{
+  margin-top: 2%;
+}
+
+.question {
+  color: black;
+}

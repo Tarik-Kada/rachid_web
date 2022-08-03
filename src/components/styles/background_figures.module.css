@@ -1,0 +1,28 @@
+.container {
+  position: absolute;
+  width: 25%;
+  height: 600px;
+  z-index: -1;
+}
+
+.stripe {
+  width: 1000px;
+  height: 100px;
+  margin: 20px 0;
+  background: rgba(21, 186, 192, 0.05);
+  filter: blur(2px);
+  border-radius: 70px;
+  float: right;
+}
+
+#one {
+  transform: rotate(-30deg);
+}
+
+#two {
+  transform: translate(-25px) rotate(-30deg);
+}
+
+#three {
+  transform: translate(-50px) rotate(-30deg);
+}

@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  border-radius: 13px;
+  padding: 20px 4%;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  min-width: fit-content;
+  margin-right: 3%;
+}
+
+.primarybutton {
+  background-color: var(--primary-color);
+}
+
+.altbutton {
+  border: 1px solid var(--primary-color);
+}
+
+.alt2button {
+  background: linear-gradient(269.68deg, #092234 -1.32%, #000000 99.73%);
+}
