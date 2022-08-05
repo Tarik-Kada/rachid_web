@@ -63,7 +63,7 @@ function Diensten() {
       <div className={[classes.splitsection, classes.reverse].join(" ")} style={{ marginBottom: 0 }}>
         <div
           className={[classes.half, classes.normal_image].join(" ")}
-          style={{ marginBottom: "-42px", marginRight: "-6px", zIndex: -1 }}
+          style={{ marginBottom: "-50px", marginRight: "-6px", zIndex: -1 }}
         >
           <img
             src={maatschappelijk_image}

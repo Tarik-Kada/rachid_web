@@ -111,7 +111,7 @@ function Contact() {
               onChange={(e) => setBericht(e.target.value)}
             />
             <div id={buttonclass.send} onClick={(e) => sendEmail(e)}>
-              VERTSUUR
+              VERSTUUR
             </div>
           </form>
         </div>
@@ -136,8 +136,6 @@ function Contact() {
         ></img>
         <div className={classes.gegevens}>
           <div className={classes.subtitle}>GEGEVENS</div>
-          <p>Tel: +31 612345678</p>
-          <p>Adres: Amsterdam Straatnaam 10B</p>
           <p>E-mail: contact@dkfibergroup.nl</p>
         </div>
       </div>
