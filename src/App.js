@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import ScrollToTop from "./components/layout/ScroolToTop";
+import ScrollToTop from "./components/layout/ScrollToTop";
 
 import Home from "./pages/Home";
 import OverOns from "./pages/OverOns";

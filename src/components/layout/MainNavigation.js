@@ -15,9 +15,11 @@ function Navigation() {
   ]);
 
   const closeNav = () => {
-    setToggleMenu(false);
-    setMenuClasses([classes.menu, classes.hidden]);
-    setClassList([classes.container]);
+    if (toggleMenu) {
+      setToggleMenu(false);
+      setMenuClasses([classes.menu, classes.hidden]);
+      setClassList([classes.container]);
+    }
   };
 
   const toggleNav = () => {
@@ -40,6 +42,7 @@ function Navigation() {
     };
 
     window.addEventListener("scroll", handleScroll);
+
   }, []);
 
   useEffect(() => {
