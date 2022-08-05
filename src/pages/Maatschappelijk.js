@@ -1,4 +1,5 @@
 import classes from "../components/styles/Pages.module.css";
+// import BackgroundFigures from "../components/ui/Background_figures";
 
 import coffee_break from "../images/coffee_break.svg";
 import certificate from "../images/certificate.svg";
@@ -8,13 +9,14 @@ function Maatschappelijk() {
   return (
     <div>
       {/* Hero section */}
-      <div className={classes.splitsection} style={{marginBottom: "3%"}}>
+      <div className={classes.splitsection} style={{ marginBottom: "3%" }}>
         <div className={classes.half}>
+          {/* <BackgroundFigures right="-70%" top="-55%" /> */}
           <div className={[classes.subtitle, classes.large].join(" ")}>
             MAATSCHAPPELIJK
           </div>
           <h1 className={classes.subpage_title}>
-          Werken Aan Een Betere Samenleving
+            Werken Aan Een Betere Samenleving
           </h1>
           <div>
             <p>
@@ -29,21 +31,25 @@ function Maatschappelijk() {
             </p>
           </div>
         </div>
-        <div className={classes.right}>
+        <div className={[classes.right, classes.normal_image].join(" ")}>
           <img
             src={coffee_break}
-            alt="An engineer at work."
-            style={{ width: "110%", marginRight: "-5rem" }}
+            alt="A group on coffeebreak."
+            className={classes.coffee_break}
           ></img>
         </div>
       </div>
 
-      {/* Maatschappelijke bijdrage */}
-      <div className={classes.splitsection}>
-        <div className={classes.half} style={{textAlign: "center"}}>
+      {/* Tekorte */}
+      <div className={[classes.splitsection, classes.reverse].join(" ")}>
+        <div
+          className={[classes.half, classes.school_image].join(" ")}
+          style={{ textAlign: "center", display: "flex", alignItems: "center" }}
+        >
           <img
             src={graduate}
             alt="Someone graduating."
+            className={classes.expert_image}
           ></img>
         </div>
         <div className={classes.half}>
@@ -53,19 +59,21 @@ function Maatschappelijk() {
             en ziet het ernaar uit dat het gat alleen maar groter wordt. Wat wij
             hebben gezien, is dat jongeren niet snel met techniek in aanraking
             komen op scholen en hun omgeving. Ook wordt het niet aantrekkelijk
-            gemaakt, wat bij andere beroepen wel gebeurt. DK Fiber Group
-            probeert dit gemis op te vangen en jongeren kennis te laten maken
-            met techniek en de mensen die interesse tonen; te begeleiden en
-            motiveren in het vak. Momenteel komen we periodiek langs op scholen
-            om gastcolleges te geven en buurtactiviteiten te organiseren via
-            buurtteams en gemeentes. Wij zien hierin een enorm succes en willen
-            dit verder uit gaan breiden!
+            gemaakt, wat bij andere beroepen wel gebeurt.
+            <br />
+            <br />
+            DK Fiber Group probeert dit gemis op te vangen en jongeren kennis te
+            laten maken met techniek en de mensen die interesse tonen; te
+            begeleiden en motiveren in het vak. Momenteel komen we periodiek
+            langs op scholen om gastcolleges te geven en buurtactiviteiten te
+            organiseren via buurtteams en gemeentes. Wij zien hierin een enorm
+            succes en willen dit verder uit gaan breiden!
           </p>
         </div>
       </div>
 
       {/* Expertise en innovatie */}
-      <div className={classes.splitsection}>
+      <div className={classes.splitsection} style={{ marginBottom: "-5rem" }}>
         <div className={classes.half}>
           <h2>Educatie</h2>
           <p>
@@ -77,13 +85,20 @@ function Maatschappelijk() {
             hen naar boven halen.
             <br />
             <br />
-             Zo zijn we bezig om beide behoeften te
-            voorzien, door middel van één oplossing. Wij geloven daarom dat we
-            aan iets heel groots aan het bouwen zijn!
+            Zo zijn we bezig om beide behoeften te voorzien, door middel van één
+            oplossing. Wij geloven daarom dat we aan iets heel groots aan het
+            bouwen zijn!
           </p>
         </div>
-        <div className={classes.half} style={{textAlign: "center"}}>
-          <img src={certificate} alt="Getting a certificate."></img>
+        <div
+          className={[classes.half, classes.school_image].join(" ")}
+          style={{ textAlign: "center" }}
+        >
+          <img
+            src={certificate}
+            alt="Getting a certificate."
+            className={classes.expert_image}
+          ></img>
         </div>
       </div>
     </div>

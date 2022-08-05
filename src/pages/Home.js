@@ -4,7 +4,7 @@ import Button from "../components/ui/Button";
 import AltButton from "../components/ui/AltButton";
 import LeesMeer from "../components/ui/LeesMeer";
 import Dienst from "../components/ui/Dienst";
-import BackgroundFigures from "../components/ui/Background_figures";
+// import BackgroundFigures from "../components/ui/Background_figures";
 
 import hero_image from "../images/hero_image.svg";
 import engineer_image from "../images/engineer.svg";
@@ -20,7 +20,7 @@ function Home() {
       {/* Hero section */}
       <div className={classes.splitsection} id={classes.hero}>
         <div className={classes.half}>
-          <BackgroundFigures right="85%" top="150px" />
+          {/* <BackgroundFigures right="85%" top="150px" /> */}
           <h1 className={classes.title}>
             Een Razendsnel <br /> Netwerk Voor <br /> Iedereen. <br />
             Met Iedereen.
@@ -39,8 +39,8 @@ function Home() {
       </div>
 
       {/* Over ons section */}
-      <div className={classes.splitsection}>
-        <div className={classes.half}>
+      <div className={[classes.splitsection, classes.reverse].join(" ")}>
+        <div className={[classes.half, classes.normal_image].join(" ")}>
           <img
             src={engineer_image}
             alt="An engineer at work."
@@ -100,7 +100,7 @@ function Home() {
           <LeesMeer target="/maatschappelijk" />
         </div>
         <div
-          className={classes.half}
+          className={[classes.half, classes.normal_image].join(" ")}
           style={{ marginBottom: "-22px", marginRight: "-6px", zIndex: -1 }}
         >
           <img

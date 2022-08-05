@@ -1,5 +1,6 @@
 import classes from "../components/styles/Pages.module.css";
 import CTA from "../components/ui/CTA";
+// import BackgroundFigures from "../components/ui/Background_figures";
 
 import house_builders from "../images/house_builders.svg";
 import business_work from "../images/business_work.svg";
@@ -8,8 +9,9 @@ function Diensten() {
   return (
     <div>
       {/* Fiber to the home */}
-      <div className={classes.splitsection}>
-        <div className={classes.half}>
+      <div className={[classes.splitsection, classes.reverse].join(" ")}>
+        <div className={classes.half} style={{display: "flex", alignItems: "flex-end" }}>
+        {/* <BackgroundFigures right="-70%" top="-55%" /> */}
           <img
             src={house_builders}
             alt="Workers building a house."
@@ -53,14 +55,14 @@ function Diensten() {
           </p>
         </div>
         <div className={classes.half} style={{textAlign: "center"}}>
-          <img src={business_work} alt="A group of business people."></img>
+          <img src={business_work} alt="A group of business people." className={classes.expert_image}></img>
         </div>
       </div>
 
       {/* Dag en nacht service */}
-      <div className={classes.splitsection} style={{ marginBottom: 0 }}>
+      <div className={[classes.splitsection, classes.reverse].join(" ")} style={{ marginBottom: 0 }}>
         <div
-          className={classes.half}
+          className={[classes.half, classes.normal_image].join(" ")}
           style={{ marginBottom: "-42px", marginRight: "-6px", zIndex: -1 }}
         >
           <img

@@ -5,6 +5,8 @@
   --bg-color: #092234;
   --primary-color: #15BAC0;
   --bg-dark: rgba(0, 0, 0, 0.65);
+  --large-bp: 1600px;
+  --mobile-bp: 1250px;
   overflow-x: hidden;
 }
 
@@ -12,11 +14,25 @@ body {
   /* position: relative; */
   min-height: 100vh;
   font-family: "Outfit", sans-serif;
-  font-size: 18px;
+  font-size: 1.15rem;
   background-color: var(--bg-color);
   max-width: 1440px;
+  width: 80vw;
   margin: 0.5vw auto 0 auto;
   padding: 0 5rem;
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+    max-width: 1100px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  body {
+    max-width: 1000px;
+    padding: 0;
+  }
 }
 
 code {
@@ -25,5 +41,5 @@ code {
 
 p {
   font-weight: 200;
-  font-size: 18px;
+  font-size: 1.125rem;
 }

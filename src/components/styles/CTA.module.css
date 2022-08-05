@@ -16,3 +16,18 @@
 .question {
   color: black;
 }
+
+@media screen and (max-width: 1250px) {
+  .question{
+    font-size: 2rem;
+    margin-bottom: 10%;
+  }
+
+  .calltoaction {
+    display: none;
+  }
+
+  .container {
+    padding: 8%;
+  }
+}

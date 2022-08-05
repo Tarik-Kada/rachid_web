@@ -6,7 +6,7 @@ function Button(props) {
     <Link
       to={props.target}
       className={[classes.button, classes.primarybutton].join(" ")}
-      style={{ textDecoration: "none", width: props.width + "%" }}
+      style={{ textDecoration: "none"}}
     >
         {props.content}
     </Link>

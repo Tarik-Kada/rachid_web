@@ -1,6 +1,6 @@
-import { Routes, Route } from "react-router-dom";
-// import logo from './images/favicon.png';
+import { Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/layout/Layout";
+import ScrollToTop from "./components/layout/ScroolToTop";
 
 import Home from "./pages/Home";
 import OverOns from "./pages/OverOns";
@@ -12,15 +12,19 @@ function App() {
   return (
     <div>
       <Layout>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/over" element={<OverOns />}></Route>
-          <Route path="/diensten" element={<Diensten />}></Route>
-          <Route path="/maatschappelijk" element={<Maatschappelijk />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
-          {/* <Route path="/new" element={<NewMeetupsPage />}></Route>
-          <Route path="/favorites" element={<FavoritesPage />}></Route> */}
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/over" element={<OverOns />}></Route>
+            <Route path="/diensten" element={<Diensten />}></Route>
+            <Route
+              path="/maatschappelijk"
+              element={<Maatschappelijk />}
+            ></Route>
+            <Route path="/contact" element={<Contact />}></Route>
+            <Route path="*" element={<Navigate to="/" />}></Route>
+          </Routes>
+        </ScrollToTop>
       </Layout>
     </div>
   );
