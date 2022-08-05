@@ -40,14 +40,14 @@ function Contact() {
 
           emailjs
             .sendForm(
-              "service_3fg913r",
-              "template_5edfa9i",
+              "service_7crguci",
+              "template_mcbgq1l",
               form.current,
-              "ertEQowpYHmWZl65t"
+              "UGyF4-hnFR4q3xl3y"
             )
             .then(
               (result) => {
-                alert("Je email is succesvol verzonden!");
+                alert("Het bericht is succesvol verzonden!");
                 console.log(result.text);
               },
               (error) => {
@@ -115,7 +115,7 @@ function Contact() {
             </div>
           </form>
         </div>
-        <div className={classes.half} style={{ borderRadius: "20%" }}>
+        <div className={[classes.half, classes.map_container].join(" ")}>
           <iframe
             title="Map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.5103538326675!2d4.900329009358787!3d52.37700854539001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b7648f168f%3A0x28c2494c1bc8baa1!2sCentral%20Station!5e0!3m2!1snl!2snl!4v1659565239553!5m2!1snl!2snl"
@@ -138,7 +138,7 @@ function Contact() {
           <div className={classes.subtitle}>GEGEVENS</div>
           <p>Tel: +31 612345678</p>
           <p>Adres: Amsterdam Straatnaam 10B</p>
-          <p>E-mail: contact@dkfiber.nl</p>
+          <p>E-mail: contact@dkfibergroup.nl</p>
         </div>
       </div>
     </div>

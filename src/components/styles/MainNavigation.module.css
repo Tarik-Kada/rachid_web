@@ -36,9 +36,14 @@ a {
   padding: 0;
 }
 
-.logo {
+.textlogo {
   font-weight: 500;
   font-size: 1.75rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .links {

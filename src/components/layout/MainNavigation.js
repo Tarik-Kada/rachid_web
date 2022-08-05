@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import hamburger from "../../images/hamburger.svg";
 import classes from "../styles/MainNavigation.module.css";
+import logo from "../../images/png-1.png";
+
 function Navigation() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [scrollPos, setScrollPos] = useState(0);
@@ -51,9 +53,19 @@ function Navigation() {
   return (
     <div className={classList.join(" ")}>
       <div className={classes.navbar}>
-        <div className={classes.logo}>
+        {/* <div className={classes.textlogo}>
           <Link to="/" onClick={(e) => closeNav()}>
             DK Fiber
+          </Link>
+        </div> */}
+
+        <div className={classes.logo}>
+          <Link to="/" onClick={(e) => closeNav()}>
+            <img
+              src={logo}
+              style={{ maxWidth: "125px", marginBottom: "-2px" }}
+              alt="DK fiber logo."
+            />
           </Link>
         </div>
         <div className={classes.links}>
