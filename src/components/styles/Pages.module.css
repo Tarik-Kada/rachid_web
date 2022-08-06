@@ -237,6 +237,14 @@ textarea:focus {
   .group_image {
     width: 60%;
   }
+
+  .contact_image_container {
+    flex-direction: column-reverse;
+  }
+  .gegevens {
+    text-align: left;
+  }
+
 }
 
 @media screen and (max-width: 1250px) {

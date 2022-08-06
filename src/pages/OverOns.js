@@ -1,4 +1,5 @@
 import classes from "../components/styles/Pages.module.css";
+import AnimatedPage from "../components/layout/AnimatedPage";
 // import Button from "../components/ui/Button";
 // import BackgroundFigures from "../components/ui/Background_figures";
 
@@ -9,6 +10,7 @@ import LeesMeer from "../components/ui/LeesMeer";
 
 function OverOns() {
   return (
+    <AnimatedPage>
     <div>
       {/* Hero section */}
       <div className={[classes.splitsection, classes.reverse].join(" ")}>
@@ -85,6 +87,7 @@ function OverOns() {
         </div>
       </div>
     </div>
+    </AnimatedPage>
   );
 }
 
