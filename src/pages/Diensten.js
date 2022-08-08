@@ -38,8 +38,8 @@ function Diensten() {
                 tot aan thuis werken. Hierdoor is een snel, stabiel en
                 betrouwbare internetverbinding belangrijker dan ooit. Door
                 middel van een glasvezel verbinding worden al deze behoeftes
-                afgevinkt. Met ons glasvezel netwerk maken wij landelijk enorm
-                veel klanten blij.
+                afgevinkt. Landelijk hebben wij al veel huishoudens voorzien van
+                een glasvezelverbinding, waar altijd op gerekend kan worden!
               </p>
             </div>
           </div>
@@ -56,8 +56,9 @@ function Diensten() {
               De hoge internetsnelheid en brandbreedte die glasvezel biedt,
               zorgt ervoor dat uw bedrijf optimaal kan functioneren en daarnaast
               worden mogelijkheden gefaciliteerd om resultaten te boeken.
-              Jaarlijks maken steeds meer bedrijven gebruik van onze diensten,
-              waarin wij hen in al hun netwerk behoeften voorzien.
+              laatste zin vervangen met: Jaarlijks kunnen door onze diensten,
+              bedrijven gebruik maken van snel, stabiel en betrouwbare
+              glasvezelverbinding.
             </p>
           </div>
           <div className={classes.half} style={{ textAlign: "center" }}>
