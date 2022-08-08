@@ -1,7 +1,5 @@
 import classes from "../components/styles/Pages.module.css";
 import AnimatedPage from "../components/layout/AnimatedPage";
-// import Button from "../components/ui/Button";
-// import BackgroundFigures from "../components/ui/Background_figures";
 
 import engineer_image from "../images/engineer.svg";
 import compass_image from "../images/expertise.svg";
@@ -15,7 +13,6 @@ function OverOns() {
       {/* Hero section */}
       <div className={[classes.splitsection, classes.reverse].join(" ")}>
         <div className={classes.half}>
-        {/* <BackgroundFigures right="-70%" top="-55%" /> */}
           <img
             src={engineer_image}
             alt="An engineer at work."

@@ -1,6 +1,5 @@
 import classes from "../components/styles/Pages.module.css";
 import AnimatedPage from "../components/layout/AnimatedPage";
-// import BackgroundFigures from "../components/ui/Background_figures";
 
 import coffee_break from "../images/coffee_break.svg";
 import certificate from "../images/certificate.svg";
@@ -13,7 +12,6 @@ function Maatschappelijk() {
         {/* Hero section */}
         <div className={classes.splitsection} style={{ marginBottom: "3%" }}>
           <div className={classes.half}>
-            {/* <BackgroundFigures right="-70%" top="-55%" /> */}
             <div className={[classes.subtitle, classes.large].join(" ")}>
               MAATSCHAPPELIJK
             </div>

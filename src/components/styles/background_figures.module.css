@@ -9,20 +9,26 @@
   width: 1000px;
   height: 100px;
   margin: 20px 0;
-  background: rgba(21, 186, 192, 0.05);
+  background: rgba(21, 186, 192, 0.08);
   filter: blur(2px);
   border-radius: 70px;
   float: right;
 }
 
-#one {
-  transform: rotate(-30deg);
+@media screen and (max-width: 1000px) {
+  .container {
+    margin-left: 10%;
+  }
 }
 
-#two {
-  transform: translate(-25px) rotate(-30deg);
+@media screen and (max-width: 800px) {
+  .container {
+    margin-left: 25%;
+  }
 }
 
-#three {
-  transform: translate(-50px) rotate(-30deg);
+@media screen and (max-width: 600px) {
+  .container {
+    margin-left: 50%;
+  }
 }

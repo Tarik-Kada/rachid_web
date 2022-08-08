@@ -1,7 +1,6 @@
 import classes from "../components/styles/Pages.module.css";
 import CTA from "../components/ui/CTA";
 import AnimatedPage from "../components/layout/AnimatedPage";
-// import BackgroundFigures from "../components/ui/Background_figures";
 
 import house_builders from "../images/house_builders.svg";
 import business_work from "../images/business_work.svg";
@@ -16,7 +15,6 @@ function Diensten() {
             className={classes.half}
             style={{ display: "flex", alignItems: "flex-end" }}
           >
-            {/* <BackgroundFigures right="-70%" top="-55%" /> */}
             <img
               src={house_builders}
               alt="Workers building a house."
@@ -56,9 +54,8 @@ function Diensten() {
               De hoge internetsnelheid en brandbreedte die glasvezel biedt,
               zorgt ervoor dat uw bedrijf optimaal kan functioneren en daarnaast
               worden mogelijkheden gefaciliteerd om resultaten te boeken.
-              laatste zin vervangen met: Jaarlijks kunnen door onze diensten,
-              bedrijven gebruik maken van snel, stabiel en betrouwbare
-              glasvezelverbinding.
+              Jaarlijks kunnen door onze diensten, bedrijven gebruik maken van
+              snel, stabiel en betrouwbare glasvezelverbinding.
             </p>
           </div>
           <div className={classes.half} style={{ textAlign: "center" }}>

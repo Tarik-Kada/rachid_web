@@ -3,10 +3,8 @@ import emailjs from "@emailjs/browser";
 import classes from "../components/styles/Pages.module.css";
 import buttonclass from "../components/styles/Buttons.module.css";
 import AnimatedPage from "../components/layout/AnimatedPage";
-// import BackgroundFigures from "../components/ui/Background_figures";
 
 import contact_image from "../images/contact.svg";
-// import Button from "../components/ui/Button";
 
 function Contact() {
   const [naam, setNaam] = useState("");
@@ -79,7 +77,6 @@ function Contact() {
         </div>
         <div className={classes.splitsection}>
           <div className={classes.half}>
-            {/* <BackgroundFigures right="-70%" top="-55%" /> */}
             <form
               className={classes.contact_form}
               ref={form}
