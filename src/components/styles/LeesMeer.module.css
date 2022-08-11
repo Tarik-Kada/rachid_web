@@ -5,15 +5,17 @@
 
 .link img {
   padding: 0 10px;
-  transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
-.link:hover {
-  font-weight: 500;
-  cursor: pointer;
-}
+@media screen and (min-width: 1000px) {
+  .link:hover {
+    font-weight: 500;
+    cursor: pointer;
+  }
 
-.link:hover img{
-  padding: 0 20px;
-  transform: scale(120%);
+  .link:hover img {
+    padding: 0 20px;
+    transform: scale(120%);
+  }
 }
