@@ -1,5 +1,6 @@
 import classes from "../components/styles/Pages.module.css";
 import AnimatedPage from "../components/layout/AnimatedPage";
+import Block from "../components/ui/Block";
 
 import coffee_break from "../images/coffee_break.svg";
 import certificate from "../images/certificate.svg";
@@ -20,14 +21,13 @@ function Maatschappelijk() {
             </h1>
             <div>
               <p>
-                Bij DK Fiber Group willen we een steentje bijdragen aan de
-                maatschappij. Onze focus ligt op jongeren die zich vergeten
-                voelen in de samenleving en het gevoel hebben dat zij geen
-                (eerlijke) kansen krijgen. Dit zijn vaak jongeren die opgroeien
-                in achterstandswijken en/of een etnische achtergrond hebben. Ook
-                zijn dit vaak mensen die enorm veel talenten hebben, maar niet
-                weten dat zij deze talenten hebben en/of hoe zij deze talenten
-                optimaal kunnen benutten.
+                Er is een groot tekort aan technici. Tegelijkertijd is er een
+                gebrek aan diversiteit: vrouwen en talent van diverse culturele
+                achtergronden zijn ondervertegenwoordigd in de techniekwereld.
+                Mede daarom hebben we een toegewijde afdeling binnen DK Fiber
+                Group opgericht om te bewijzen dat er een overvloed aan
+                verborgen talent geactiveerd kan worden om te werken in de
+                wereld van glasvezel.
               </p>
             </div>
           </div>
@@ -39,7 +39,25 @@ function Maatschappelijk() {
             ></img>
           </div>
         </div>
-
+        {/* Missie, visie en strategie */}
+        <div className={classes.block_container}>
+          <Block
+            title="Missie"
+            content="De tekorten in de techniekwereld oplossen door verborgen talent te activeren"
+          />
+          <Block
+            title="Visie"
+            content="Een tekort is helemaal niet nodig, als we anders kijken naar talent."
+          />
+          <Block
+            title="Strategie"
+            content="Wij bieden één passend loopbaanpad naar volwaardig
+            glasvezelmonteur aan. Van oriënteren tot opleiden.
+            Toegankelijk voor iedereen en continu in ontwikkeling op basis van
+            de vraag op het gebied van aanleg, beheer en begeleidingstrajecten
+            van glasvezelnetwerken."
+          />
+        </div>
         {/* Tekorte */}
         <div className={[classes.splitsection, classes.reverse].join(" ")}>
           <div
