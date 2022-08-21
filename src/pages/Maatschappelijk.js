@@ -14,10 +14,10 @@ function Maatschappelijk() {
         <div className={classes.splitsection} style={{ marginBottom: "3%" }}>
           <div className={classes.half}>
             <div className={[classes.subtitle, classes.large].join(" ")}>
-              MAATSCHAPPELIJK
+              VISIE
             </div>
             <h1 className={classes.subpage_title}>
-              Werken Aan Een Betere Samenleving
+              Opleiden & Begeleiden
             </h1>
             <div>
               <p>
@@ -69,8 +69,8 @@ function Maatschappelijk() {
             }}
           >
             <img
-              src={graduate}
-              alt="Someone graduating."
+              src={certificate}
+              alt="Getting a certificate."
               className={classes.expert_image}
             ></img>
           </div>
@@ -95,7 +95,7 @@ function Maatschappelijk() {
         </div>
 
         {/* Expertise en innovatie */}
-        <div className={classes.splitsection} style={{ marginBottom: "-5rem" }}>
+        <div className={classes.splitsection}>
           <div className={classes.half}>
             <h2>Educatie</h2>
             <p>
@@ -117,8 +117,8 @@ function Maatschappelijk() {
             style={{ textAlign: "center" }}
           >
             <img
-              src={certificate}
-              alt="Getting a certificate."
+              src={graduate}
+              alt="Someone graduating."
               className={classes.expert_image}
             ></img>
           </div>

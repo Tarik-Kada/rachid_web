@@ -65,7 +65,7 @@ function OverOns() {
           </div>
         </div>
 
-        {/* Maatschappelijke bijdrage */}
+        {/* Visie bijdrage */}
         <div className={[classes.splitsection, classes.reverse].join(" ")}>
           <div className={[classes.half, classes.normal_image].join(" ")}>
             <img
@@ -75,7 +75,7 @@ function OverOns() {
             ></img>
           </div>
           <div className={classes.half}>
-            <h2>Maatschappelijke bijdrage</h2>
+            <h2>Onze visie</h2>
             <p>
               Er is een groot tekort aan technici. Tegelijkertijd is er een
               gebrek aan diversiteit: vrouwen en talent van diverse culturele
@@ -85,7 +85,7 @@ function OverOns() {
               talent geactiveerd kan worden om te werken in de wereld van
               glasvezel.
             </p>
-            <LeesMeer target="/maatschappelijk" />
+            <LeesMeer target="/visie" />
           </div>
         </div>
       </div>

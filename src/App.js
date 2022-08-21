@@ -5,7 +5,7 @@ import Layout from "./components/layout/Layout";
 import Home from "./pages/Home";
 import OverOns from "./pages/OverOns";
 import Diensten from "./pages/Diensten";
-import Maatschappelijk from "./pages/Maatschappelijk";
+import Visie from "./pages/Maatschappelijk";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
               <Route path="/over" element={<OverOns />}></Route>
               <Route path="/diensten" element={<Diensten />}></Route>
               <Route
-                path="/maatschappelijk"
-                element={<Maatschappelijk />}
+                path="/visie"
+                element={<Visie />}
               ></Route>
               <Route path="/contact" element={<Contact />}></Route>
               <Route path="*" element={<Navigate to="/" />}></Route>
