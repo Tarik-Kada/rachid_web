@@ -96,7 +96,7 @@ function Diensten() {
                 zijn wij 24 uur per dag beschikbaar om een mogelijk probleem
                 bijtijds aan te pakken en op te lossen. Dit doen wij zodat u
                 geen last ondervindt van een slecht netwerk en te allen tijde
-                over een goede verbindig beschikt.
+                over een goede verbinding beschikt.
               </p>
             </div>
           </div>
