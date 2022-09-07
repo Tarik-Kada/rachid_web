@@ -79,7 +79,7 @@ function Navigation() {
             <Link to="/diensten">Diensten</Link>
           </div>
           <div className={classes.link}>
-            <Link to="/maatschappelijk">Maatschappelijk</Link>
+            <Link to="/visie">Visie</Link>
           </div>
           <div className={classes.link}>
             <Link to="/contact">Contact</Link>
@@ -101,8 +101,8 @@ function Navigation() {
           </Link>
         </div>
         <div className={classes.link}>
-          <Link to="/maatschappelijk" onClick={(e) => closeNav()}>
-            Maatschappelijk
+          <Link to="/visie" onClick={(e) => closeNav()}>
+            Visie
           </Link>
         </div>
         <div className={classes.link}>

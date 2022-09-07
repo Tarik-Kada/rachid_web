@@ -22,7 +22,7 @@ function Home() {
         {/* Hero section */}
         <div className={classes.splitsection} id={classes.hero}>
           <div className={classes.half}>
-            <BackgroundFigures/>
+            <BackgroundFigures />
             <h1 className={classes.title}>
               Een Razendsnel <br /> Netwerk Voor <br /> Iedereen. <br />
               Met Iedereen.
@@ -87,20 +87,21 @@ function Home() {
           />
         </div>
 
-        {/* Maatschappelijk section */}
+        {/* Visie section */}
         <div className={classes.splitsection} style={{ marginBottom: 0 }}>
           <div className={classes.half}>
-            <div className={classes.subtitle}>MAATSCHAPPELIJK</div>
-            <h2>Bijdragen aan de maatschappij</h2>
+            <div className={classes.subtitle}>VISIE</div>
+            <h2>Opleiden & begeleiden</h2>
             <p>
-              Bij DK Fiber Group willen we een steentje bijdragen aan de
-              maatschappij. Hierbij focussen wij op kansarme jongeren die zich
-              vergeten voelen in de samenleving. Dit zijn vaak jongeren die
-              opgroeien in achterstandswijken en/of een etnische achtergrond
-              hebben. Wij helpen deze jongeren hun talenten benutten en
-              ontwikkelen.
+              Er is een groot tekort aan technici. Tegelijkertijd is er een
+              gebrek aan diversiteit: vrouwen en talent van diverse culturele
+              achtergronden zijn ondervertegenwoordigd in de techniekwereld.
+              Mede daarom hebben we een toegewijde afdeling binnen DK Fiber
+              Group opgericht om te bewijzen dat er een overvloed aan verborgen
+              talent geactiveerd kan worden om te werken in de wereld van
+              glasvezel.
             </p>
-            <LeesMeer target="/maatschappelijk" />
+            <LeesMeer target="/visie" />
           </div>
           <div
             className={[classes.half, classes.normal_image].join(" ")}

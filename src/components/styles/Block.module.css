@@ -1,0 +1,39 @@
+.container {
+  width: 26.5%;
+  background-color: #223949;
+  border-radius: 10px;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.text > p {
+  font-size: 1.25rem !important;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    max-width: 25rem;
+    width: 100%;
+    margin: 2% 0;
+  }
+}
